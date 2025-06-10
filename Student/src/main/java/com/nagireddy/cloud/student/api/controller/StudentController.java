@@ -30,6 +30,7 @@ public class StudentController {
 	public void addStudent(@RequestBody Student obj)
 	{
 		System.out.println("obj value is...................."+obj.getId());
+		System.out.println("obj value is...................."+obj.getId());
 		service.addStudent(obj);
 	}
 	
